@@ -1,0 +1,133 @@
+#NavBar2{
+  text-color:white;
+}
+
+#button{
+  background-color:white;
+}
+
+
+#accordion{
+  width:70%;
+}
+
+
+.icon-bar{
+  background-color:#0088CC;
+}
+
+
+#TopNavBar{
+  background-color:#0088cc;
+  color:#0088cc;
+}
+
+.navbar-brand{
+  color:white;
+}
+
+.navbar-brand:hover{
+  background-color: #006699;
+  color:white;
+}
+
+.navbar-header{
+   background-color:#0088CC;
+   text-color:white;
+}
+
+
+#tiki:hover{
+  background-color: #006699; 
+}
+
+#tiki{
+  /* background-color: yellow; */
+  color:white;
+}
+
+.navbar-collapse{
+   background-color:#0088CC;
+   text-color:white;
+}
+.navbar-collapse:hover{
+  background-color: #0088CC;
+}
+
+.navbar-nav:hover{
+  color: #0088CC;
+} 
+
+.btn-custom {
+  color:white;
+  background-color:#0088CC;
+  text-color:white;
+}
+   
+   
+   
+   
+.navbar .nav,
+.navbar .nav > li {
+    float:none;
+    display:inline-block;
+    *display:inline; /* ie7 fix */
+    *zoom:1; /* hasLayout ie7 trigger */
+    vertical-align: top;
+}
+
+
+
+
+
+#NavBar{
+  background-color:#0088cc;
+  color:white;
+}
+
+body{
+  padding-top: 40px;
+}
+
+h1{
+  color: #0088cc;
+}
+
+#StackedNavBar{
+  padding-top: 30px ;
+  position:fixed;
+  
+}
+
+
+.nav-tabs {
+    text-align:center;
+    text-color:white;
+}
+
+
+
+#Greeting{
+  color:white;
+  text-color:white;
+  text-align:center;
+}
+
+
+#Greeting2{
+  text-align:center;
+  color:#ffffff;
+  vertical-align: bottom;
+}
+
+
+
+#GreetingPicture{
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  background-repeat:no-repeat;
+  background-position:top center;
+
+}
+

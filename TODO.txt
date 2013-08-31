@@ -1,0 +1,9 @@
+1. (Andrew) Change the color of the navbar to the #0088cc color. ** (DONE)
+2. (Andrew + content_providers[kevin+thaddeus]) Add a gallery to the About Us page.
+3. (Kevin) Add links to the web based environments. **(DONE)
+4. (Thaddeus) {zaid-ideas} Change resources to tutorials page. 
+5. (Thaddeus) Update calendar.** (DONE)
+6. (Kevin) Collapse the nav strip (dropdown menu)
+7. (Thaddeus) More timestamps **(DONE)
+8. (Thaddeus) Add links to either LinkedIn/Facebook for our faculty members.
+9. (Thaddeus) Link web based environments back to original Mobi site. **(DONE WITH EXCEPTION)Can only work when on a real server

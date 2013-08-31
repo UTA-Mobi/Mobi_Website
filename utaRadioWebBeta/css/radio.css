@@ -1,0 +1,21 @@
+/* custom fonts for UTA radio App
+
+*/
+
+@font-face {
+
+    font-family: rexBold;
+    src: url("rexBold.otf");
+    
+}
+@font-face {
+    font-family: rexLight;
+    src: url("rexLight.otf");
+
+}
+
+@font-face {
+
+    font-family: rexBoldInline;
+    src: url("rexBoldInline.otf");
+}
