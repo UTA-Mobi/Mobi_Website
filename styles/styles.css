@@ -3,6 +3,26 @@
     min-height: 100vh; /* 100vh adjust to screen height */
 }
 
+#section-mobi {
+    background-color:#0088cc;
+}
+
+#section-projects {
+    background-color:#bababa
+}
+
+#section-getinvolved {
+    background-color:white
+}
+
+#section-resources {
+    background-color:#bababa
+}
+
+#section-about {
+    background-color:white
+}
+
 #NavBar2 {
     text-color:white;
 }
