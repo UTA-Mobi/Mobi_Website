@@ -1,429 +1,298 @@
-<!DOCTYPE HTML>
-<html>
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
     <head>
+		<!-- BASICS -->
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta content="text/html; charset=UTF-8" http-equiv="content-type" />
-
-        <!-- Latest compiled and minified JavaScript -->
-        <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script> <title>Mobi</title>
-
-        <link rel="stylesheet" href="styles/bootstrap-theme.min.css">
-        <link rel="stylesheet" href="styles/bootstrap.min.css">
-        <link rel="stylesheet" href="styles/styles.css"> <!-- Put after bootstrap to overwrite some styles -->
-
-        <script src="js/script.js" type="text/javascript"></script> 
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>MOBI - The organization for developers, by developers</title>
+        <meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="css/isotope.css" media="screen" />	
+		<link rel="stylesheet" href="js/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/bootstrap-theme.css">
+        <link rel="stylesheet" href="css/style.css">
+		<!-- skin -->
+		<link rel="stylesheet" href="skin/default.css">
     </head>
+	 
     <body>
+		<section id="header" class="appear"></section>
+		<div class="navbar navbar-fixed-top" role="navigation" data-0="line-height:100px; height:100px; background-color:rgba(0,0,0,0.3);" data-300="line-height:60px; height:60px; background-color:rgba(0,0,0,1);">
+			 <div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="fa fa-bars color-white"></span>
+					</button>
+					<h1><a class="navbar-brand" href="index.html" data-0="line-height:90px;" data-300="line-height:50px;">MOBI</a></h1>
+				</div>
+				<div class="navbar-collapse collapse">
+					<ul class="nav navbar-nav" data-0="margin-top:20px;" data-300="margin-top:5px;">
+						<li class="active"><a href="index.html">Home</a></li>
+						<li><a href="#section-about">About</a></li>
+						<li><a href="#section-works">Get Involved</a></li>
+						<li><a href="#section-contact">Contact</a></li>
+					</ul>
+				</div><!--/.navbar-collapse -->
+			</div>
+		</div>
 
-        <!-- Top nav bar -->
-        <div id="top-nav">
-            <div class="navbar navbar-fixed-top" id="blah">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle btn-custom" data-toggle="collapse" data-target=".navbar-collapse" id = "button" style="text-color:white;">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <center><a class="navbar-brand" class= "active" href="#section-mobi">Mobi</a>
-                    </center>
-                </div>
-                <div class="navbar-collapse collapse">
-                    <center>
-                        <ul class="nav navbar-nav">
-                            <li><a href="#section-projects" id="tiki">OUR PROJECTS </a></li>
-                            <li><a href="#section-getinvolved" id="tiki">GET INVOLVED</a></li>
-                            <li><a href="#section-resources" id="tiki">RESOURCES</a></li>
-                            <li><a href="#section-about" id="tiki"> ABOUT US</a></li>
-                        </ul></center>
-                </div><!--/.navbar-collapse -->
+		<section class="featured">
+			<div class="container"> 
+				<div class="row mar-bot40">
+					<div class="col-md-6 col-md-offset-3">
+						
+						<div class="align-center">
+							<img src="img/parallax/mobi_logo.jpg" alt="" />
+							<h2 class="slogan">Welcome to MOBI</h2>
+							<p>
+							The organization for developers, by developers
+							</p>	
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<!-- services -->
+		<section id="section-services" class="section pad-bot30 bg-white">
+		<div class="container"> 
+		
+			<div class="row mar-bot40">
+				<div class="col-lg-4" >
+					<div class="align-center">
+						<figure class="project-photo"><a href="http://campus-synergy.herokuapp.com/"  target="_blank"><img src="img/projects/campus_synergy.jpg" alt="" /></a></figure>
+						<h4 class="text-bold">Campus Synergy</h4>
+						<p>Campus Synergy is an event sharing application. This application attempts to use software to provide a more interactive bridge to connect organizations with students. Campus Synergy will make event sharing more interactive and fun.</p>
+					</div>
+				</div>
+					
+				<div class="col-lg-4" >
+					<div class="align-center">
+						<figure class="project-photo"><a href="http://idappthat.mobi/utaRadioWebBeta/UTARadio.html" target="_blank"><img src="img/projects/uta_radio.jpg" alt="" /></a></figure>
+						<h4 class="text-bold">UTA Radio</h4>
+						<p>The broadcasting station at UTA wanted us to make an app for them. This would be a cross-platform web app that would stream audio over http and rtmp, integrate twitter, facebook, and allow users to request songs in realtime.
+						</p>
+					</div>
+				</div>
+			
+				<div class="col-lg-4" >
+					<div class="align-center">
+						<figure class="project-photo"><a href="https://docs.google.com/file/d/0B7rItfGsNyoWbWVpeFpwRkRfSlU/edit?pli=1"  target="_blank"><img src="img/projects/Icon_World.png" alt="" /><a/></figure>
+						<h4 class="text-bold">WebXCavate</h4>
+						<p>webXcavate is a caching game. The users of this app tag an eLocation with helpful hints, a question, and an answer. Users that want to play then would view a snapshot of the eLocation, read the hints, and surf the Web following the hints in order to name that eLocation.
+						</p>
+					</div>
+				</div>
+			
+			</div>	
+
+		</div>
+		</section>
+			
+		<!-- spacer section:testimonial -->
+		<section id="testimonials" class="section" data-stellar-background-ratio="0.5">
+		<div class="container">
+			<div class="row">				
+					<div class="col-lg-12">
+							<div class="align-center">
+										<div class="testimonial pad-top40 pad-bot40 clearfix">
+											<h5>
+											Mobi(formerly known as SAAMD) is a student organization that aims to engage its members in an active learning environment for mobile development while promoting scholastic excellence.
+											</h5>
+											<br/>
+											<span class="author">&mdash; MOBI </span>
+										</div>
+
+								</div>
+							</div>
+					</div>
+				
+			</div>	
+		</div>	
+		</section>
+			
+		<!-- about -->
+		<section id="section-about" class="section appear clearfix">
+		<div class="container">
+
+				<div class="row mar-bot40">
+					<div class="col-md-offset-3 col-md-6">
+						<div class="section-header">
+							<h2 class="section-heading animated" data-animation="bounceInUp">Our Team</h2>
+							<p>Entrepreneurial thinking is encouraged as Mobi explores the tools that start-ups are using to make the rapid development process possible in such a fast moving world. These objectives aim to harbor creativity and leadership skills in our members. 
+							</p>
+						</div>
+					</div>
+				</div>
+
+					<div class="row align-center mar-bot40">
+						<div class="col-md-4">
+							<div class="team-member">
+								<figure class="member-photo"><img src="img/team/photo.png" alt="" /></figure>
+								<div class="team-detail">
+									<h4>James Staud</h4>
+									<span>CEO</span>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="team-member">
+								<figure class="member-photo"><img src="img/team/photo.png" alt="" /></figure>
+								<div class="team-detail">
+									<h4>Kevin Chung</h4>
+									<span>COO</span>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="team-member">
+								<figure class="member-photo"><img src="img/team/photo.png" alt="" /></figure>
+								<div class="team-detail">
+								<h4>Gregely Zaruba</h4>
+									<span>Faculty Advisor</span>
+								</div>
+							</div>
+						</div>
+						
+					</div>
+						
+		</div>
+		</section>
+		<!-- /about -->
+		
+		<!-- spacer section:stats -->
+		<section id="parallax1" class="section pad-top40 pad-bot40" data-stellar-background-ratio="0.5">
+			<div class="container">
+			<div class="align-center">
+			<div class="testimonial pad-top40 pad-bot40 clearfix">
+					<h5>
+						Students will be able to apply their knowledge in Java, OOP, Algorithms, Database, OS, Mobile Systems, and Networks to their own projects that involve mobile development using the iPhone and Android OS as an integral part in their projects.
+					</h5>
+				</div>
+
+			</div>
+			</div>
+			</div>	
+		</section>
+		
+		<!-- section works -->
+		<section id="section-works" class="section appear clearfix">
+			<div class="container">
+				
+				<div class="row mar-bot40">
+					<div class="col-md-offset-3 col-md-6">
+						<div class="section-header">
+							<h2 class="section-heading animated" data-animation="bounceInUp">Get Involved</h2>
+							<p>
+							</p>
+						</div>
+					</div>
+				</div>
+					
+                        <div class="row">
+                          <center>
+						   <h1>
+							Learn Together</h1>
+						   We often have <strong>TWO</strong> different types of meetings:<br />
+						   Info Sessions: General Body Meetings about Club&#39;s direction<br />
+						   Social Coding Days: Paired programming styled coding time with teammates.<br />
+							<center>
+						   <strong>Only $10</strong> to join for the year E-mail| uta.mobi@gmail.com We value your input, your curiosity, and your story.</center>
+						  <iframe src="https://www.google.com/calendar/embed?src=uta.mobi%40gmail.com&ctz=America/Chicago" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe></center>
+										  
+						</div>
+				
+			</div>
+		</section>
+		<section id="parallax2" class="section parallax" data-stellar-background-ratio="0.5">	
+            <div class="align-center pad-top40 pad-bot40">
+                <blockquote class="bigquote color-white">.</blockquote>
+				<p class="color-white">.</p>
             </div>
-        </div>
-        <!-- end top nav bar -->
+		</section>
 
-        <div id="section-mobi" class="block">
-            <h1 id="Greeting">Mobi</h1>
-            <h2 id="Greeting">The organization for developers, by developers</h2>
-            <!-- <img id="GreetingPicture" src="http://i.imgur.com/a2Lz5T7.jpg?1" /></body> -->
-        </div>
+		<!-- contact -->
+		<section id="section-contact" class="section appear clearfix">
+			<div class="container">
+				
+				<div class="row mar-bot40">
+					<div class="col-md-offset-3 col-md-6">
+						<div class="section-header">
+							<h2 class="section-heading animated" data-animation="bounceInUp">Contact us</h2>
+							<p>You can also visit us directly at ERB 437, UTA.</p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2">
+						<div class="cform" id="contact-form">
+							<div id="sendmessage">
+								 Your message has been sent. Thank you!
+							</div>
+							<form action="contact/contact.php" method="post" role="form" class="contactForm">
+							  <div class="form-group">
+								<label for="name">Your Name</label>
+								<input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="maxlen:4" data-msg="Please enter at least 4 chars" />
+								<div class="validation"></div>
+							  </div>
+							  <div class="form-group">
+								<label for="email">Your Email</label>
+								<input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+								<div class="validation"></div>
+							  </div>
+							  <div class="form-group">
+								<label for="subject">Subject</label>
+								<input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="maxlen:4" data-msg="Please enter at least 8 chars of subject" />
+								<div class="validation"></div>
+							  </div>
+							  <div class="form-group">
+								<label for="message">Message</label>
+								<textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us"></textarea>
+								<div class="validation"></div>
+							  </div>
+							  
+							  <button type="submit" class="btn btn-theme pull-left">SEND MESSAGE</button>
+							</form>
 
+						</div>
+					</div>
+					<!-- ./span12 -->
+				</div>
+				
+			</div>
+		</section>
+		
+		
+	<section id="footer" class="section footer">
+		<div class="container">
+			
 
-        <div id="section-projects" class="block">
-            <!-- Side nav bar (stacked) -->
-            <div class ="row">
-                <div class="col-xs-3">
-                    <ul class="nav nav-stacked" id="StackedNavBar">
-                        <li><a href="#Campus Synergy">Campus Synergy</a></li>
-                        <li><a href="#UTA Radio App">UTA Radio</a></li>
-                        <li><a href="#WebXCavate">WebXCavate</a></li>
-                        <li><a href="#Campus Synergy 2">Campus Synergy-First Thoughts</a></li>
-                    </ul>
-                </div>
+			<div class="row align-center copyright">
+					<div class="col-sm-12"><p>Copyright &copy; 2014 MOBI - by <a href="#">MOBI, UTA</a></p></div>
+			</div>
+		</div>
 
-                <!-- body -->
-                <div class = "col-xs-9" id="MainText">
-                    <p id = "Campus Synergy"></p>
-                    <br>
-                    <h1>Campus Synergy</h1>
-                    <span style="margin: 3px 0px 0px; padding: 0px; border: 0px; outline: 0px; font-size: 13px; font-family: Helvetica, Arial, sans-serif; vertical-align: baseline; line-height: 17px; display: block; color: #999999;" >May 2013 &ndash; Present </span>
-                    Campus Synergy is an event sharing application. SAAMD sat in front of the whiteboard for months 
-                    trying to revolutionize how events are publicized on campus. This application attempts to use 
-                    software to provide a more interactive bridge to connect organizations with students. This app 
-                    does not aim to put chalking, flyers, nor emails out of business. Campus Synergy will make event 
-                    sharing more interactive and fun. The campus synergy (whiteboard days) design tried to revolutionize 
-                    all student communication. With this new Campus Synergy, our aims are to concentrate on improving 
-                    just the event sharing aspect of campus life.
+	</section>
+	<a href="#header" class="scrollup"><i class="fa fa-chevron-up"></i></a>	
 
-                    <br>
-                    <span>
-                        <a href="http://campus-synergy.herokuapp.com/" target="_blank">
-                            <img src="http://i.imgur.com/sQPv01Q.png" title="UTARadio web environment" /></a>
-                        <strong> click to access the Campus Synergy web environment </strong>
-                    </span>
-
-                    <p id ="UTA Radio App"></p>
-                    <br>
-                    <h1 >UTA Radio App</h1>
-                    <span style="margin: 3px 0px 0px; padding: 0px; border: 0px; outline: 0px; font-size: 13px; font-family: Helvetica, Arial, sans-serif; vertical-align: baseline; line-height: 17px; display: block; color: #999999;">November 2012 &ndash; March 2013 </span>
-                    <p class="description">
-                        The broadcasting station at UTA wanted us to make an app for them. This would be a cross-platform 
-                        web app that would stream audio over http and rtmp, integrate twitter, facebook, and allow users to 
-                        request songs in realtime.<br />
-                        <br />
-                        responsibilities: social media integration (twitter and facebook), meeting with UTA radio, creating 
-                        an easy to use and smooth UI experience, and streaming audio over http and rtmp.<br />
-                        <br />
-                        Frameworks: Phonegap, jQuery Mobile<br />
-                        Languages: HTML5, Javascript, and  CSS</p>
-                    <span>
-                        <a href="utaRadioWebBeta/UTARadio.html" target="_blank">
-                            <img src="http://i.imgur.com/sQPv01Q.png" title="UTARadio web environment" /></a>
-                        <strong> click to access the UTARadio web environment </strong>
-                    </span>
-
-                    <p class="description" style="margin: 10px 0px 0px; padding: 0px; border: 0px; outline: 0px; font-size: 13px; font-family: Helvetica, Arial, sans-serif; vertical-align: baseline; line-height: 17px;">
-                        <img alt="UTA Radio App Experience Day" border="0" class="img-rounded" height="640" src="http://i.imgur.com/ih4gVLH.jpg?1" style="border: 0; vertical-align: text-top;" width="478" /></p>
-
-                    <p id ="WebXCavate"></p>
-                    <br>
-                    <h1>WebXCavate</h1>
-                    <span style="margin: 3px 0px 0px; padding: 0px; border: 0px; outline: 0px; font-size: 13px; font-family: Helvetica, Arial, sans-serif; vertical-align: baseline; line-height: 17px; display: block; color: #999999;">August 2012 &ndash; August 2012 </span>
-                    webXcavate is a caching game. The users of this app tag an eLocation with helpful hints, a question, and an answer. Users that want to play then would view a snapshot of the eLocation, read the hints, and surf the Web following the hints in order to name that eLocation.
-
-                    <p>Project Members:</p>
-                    <ul>
-                        <li>
-                            Thaddeus Madison: Android Developer for 4.0.3 platform and team coordinator</li>
-                        <li>
-                            Tony Kieu: Android Developer for 4.0.3 platform and parse expert</li>
-                    </ul>
-
-                    The Concept:
-                    <a href="http://i.imgur.com/OXFpJ.png" title="WEBXCAVATE CONCEPT"><img alt="WEBXCAVATE CONCEPT" border="0" height="350" src="http://i.imgur.com/OXFpJ.png" width="423" /></a>
-                    <h2>Click Here for: <a href="https://docs.google.com/open?id=0B7rItfGsNyoWbWVpeFpwRkRfSlU" target="_blank" title="WebXCavate Walkthrough">The THOROUGH RUNDOWN! </a></h2>
-
-                    Click Here to: <a href="https://projeqt.com/embed/v2/39810-a63b435b78d26cd8dabe366c5c0b9e77/" target="_blank" title="WebXcavate Project Viewer">Track Project Progress</a>. Made with <a href="http://projeqt.com/" target="_blank" title="Projeqt Homepage">Projeqt</a> - See our explanation of <a href="/index.php/resources" target="_blank" title="TO our resources page">Projeqt</a>! :)
-
-                    <p id ="Campus Synergy 2"></p>
-                    <br>
-                    <h1 > Campus Synergy-First Time Around</h1>
-                    <p style="color: #333333; font-family: Tahoma, Helvetica, Arial, sans-serif; font-size: 12px; font-weight: normal;">
-                        Campus synergy is an interactive mobile application for college events. The application has a lot of 
-                        features that would transform campuses into socially aware entities. There are a lot of common 
-                        features between campus synergy and other official university apps yet campus synergy will change 
-                        the way students interact with these apps; from an informative tool into an immersive experience. 
-                        We will hold back on the details until the app is ready for prime time!</p>
-                    <p style="color: #333333; font-family: Tahoma, Helvetica, Arial, sans-serif; font-size: 12px; font-weight: normal;">
-                        Project Members:
-                        <ul style="color: #333333; font-family: Tahoma, Helvetica, Arial, sans-serif; font-size: 12px; font-weight: normal;">
-                            <li> Essa Haddad: Iphone IOS5 developer and team coordinator</li>
-                            <li>Tuan Ngyen: Google App engine Database developer</li>
-                            <li>Christopher Palmer: Android developer</li>
-                    </ul>
-                    <p>This project was laid to rest, and preserved as case study.</p>
-                </div>
-            </div>
-        </div> <!-- #section-projects -->
-
-        <div id="section-getinvolved" class="block">
-            <center>
-                <h1>Learn Together</h1>
-                We often have <strong>TWO</strong> different types of meetings:<br />
-                Info Sessions: General Body Meetings about Club&#39;s direction<br />
-                Social Coding Days: Paired programming styled coding time with teammates.<br />
-                <center><strong>Only $10</strong> to join for the year E-mail| uta.mobi@gmail.com We value your input, your curiosity, and your story.</center>
-                <iframe src="https://www.google.com/calendar/embed?src=uta.mobi%40gmail.com&ctz=America/Chicago" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe></center>
-        </div> <!-- #section-getinvolved -->
-
-        <div id="section-resources" class="block">
-            <!-- Side nav bar (stacked) -->
-            <div class="row">
-                <div class="col-lg-3 visible-lg">
-                    <ul class="nav nav-stacked" id="StackedNavBar">
-                        <li class="active"><a href="#CoolLinks">Cool Links</a></li>
-                        <li><a href="#HTML5">HTML5</a></li>
-                        <li><a href="#ANDROID">ANDROID</a></li>
-                        <li><a href="#BOOKS">BOOKS</a></li>
-                        <li><a href="#CoolAppsAndTech">COOL APPS AND TECH</a></li>
-                        <li><a href="#GoogleIOVideos">GOOGLE IO VIDEOS</a></li>
-                        <li><a href="#OsXTech">OS X TECH</a></li>
-                    </ul>
-                </div>
-
-                <div class="col-lg-9">
-                    <!--body-->
-                    <p id="CoolLinks"></p>
-                    <br>
-                    <h1>Cool Links</h1>
-                    <p><span style="text-decoration: underline;"><a href="https://parse.com/" target="_self" title="Parse">Parse</a></span> - Databasing using java, objective c, or javascript. No moar php!</p>
-                    <p><span style="text-decoration: underline;"><a href="https://www.assembla.com/home" target="_self" title="Assembla">Assembla</a></span> - Code Repository System</p>
-                    <p><span style="text-decoration: underline;"><a href="http://projeqt.com/" target="_blank" title="Projeqt">Projeqt</a> </span>- Presentation maker. The layout is versatile. Looks like FB picture format, so I believe it is much better for galleries than an all-in-one presentation maker.</p>
-                    <p>&nbsp;</p>
-                    <p id="HTML5"></p>
-                    <br><br>
-                    <h1>HTML5</h1>
-                    <p><span style="text-decoration: underline;"><a href="http://html5doctor.com/" target="_blank">html5 Doctor</a></span></p>
-                    <p><a href="http://phonegap.com/" target="_blank">PhoneGap</a></p>
-                    <p>&nbsp;</p>
-
-                    <p id="Android"></p>
-                    <br>
-                    <h1 id="Android">Android</h1>
-                    <p><a href="http://code.google.com/p/jbox2d/wiki/QuickStart" target="_blank" title="Hover over the source page link later in this description on SAAMD website for helpful info. :)">Box2D physics engine QuickStart guide</a> - Although it has old links to JBox2D that do not work anymore. <a href="http://code.google.com/p/jbox2d/" target="_blank" title="To JBox2D you GO!!! Hover over the source page link later in this sentence for helpful info.">Here</a> is the link to the JBox2D distribution. Then go to the <a href="http://code.google.com/p/jbox2d/source/checkout" target="_blank" title="This has the URL if you are used to source control. :) If not, look into assembla.com, turtoise SVN, or subclipse (SVN plug-in for eclipse)">source page</a> on that site and just use the URL.</p>
-                    <p>&nbsp;</p>
-
-                    <p id = "Books"></p>
-                    <br>
-                    <h1>BOOKS</h1>
-                    <p><span style="text-decoration: underline;"><a href="http://www.amazon.com/dp/1119961327/ref=cm_sw_r_fa_dp_euQCpb1H9RM9V" target="_blank" title="iOS 5 Programming Pushing the Limits">iOS 5 Programming Pushing the Limits</a></span></p>
-                    <p><span style="text-decoration: underline;"><a href="http://www.amazon.com/dp/1118102274/ref=cm_sw_r_fa_dp_azQCpb1T8ZVEK" target="_blank" title="Professional Android 4 Application Development">Professional Android 4 Application Development</a></span></p>
-                    <p><span style="text-decoration: underline;"><a href="http://www.amazon.com/iOS-Programming-Ranch-Edition-Guides/dp/0321821521/ref=sr_1_1?ie=UTF8&amp;qid=1333948995&amp;sr=8-1" target="_blank" title="The Big Nerd Ranch">iOS Programming: The Big Nerd Ranch Guide</a></span></p>
-                    <p><span style="text-decoration: underline;"><br /></span></p>
-
-
-                    <p id="CoolAppsAndTech"></p>
-                    <br>
-                    <h1>COOL APPS AND TECH</h1>
-                    <p><a href="https://www.pulse.me/" target="_blank" title="pulse"><span style="text-decoration: underline;">PULSE</span></a></p>
-                    <p><a href="http://player.vimeo.com/video/28524675?title=0&amp;byline=0&amp;portrait=0" target="_blank" title="SWYP"><span style="text-decoration: underline;">SWYP</span></a></p>
-                    <p><a href="http://techcrunch.com/2011/10/17/iris-is-sort-of-siri-for-android/" target="_blank" title="IRIS"><span style="text-decoration: underline;">IRIS</span></a></p>
-                    <p><a href="http://www.youtube.com/watch?v=LT4N0yEByM8&amp;feature=share" target="_blank" title="Amazon Silk"><span style="text-decoration: underline;">amazon silk</span></a></p>
-                    <p><a href="http://www.realmacsoftware.com/clear/" target="_blank" title="CLEAR"><span style="text-decoration: underline;">CLEAR for iphone</span></a></p>
-                    <p><a href="http://bedjapp.com/" title="BeDJ"><span style="text-decoration: underline;">BeDJ</span></a></p>
-                    <p><a href="http://www.youtube.com/watch?v=N6Douyfa7l8&amp;feature=youtu.be" target="_blank" title="3D"><span style="text-decoration: underline;">new 3d imagery from google</span></a></p>
-                    <p><a href="http://www.youtube.com/watch?v=-Uwjt32NvVA&amp;feature=player_embedded" target="_blank" title="IPv6"><span style="text-decoration: underline;">IPv6</span></a></p>
-                    <p><a href="https://play.google.com/store/apps/details?id=com.samsung.tectile&amp;feature=search_result#?t=W251bGwsMSwxLDEsImNvbS5zYW1zdW5nLnRlY3RpbGUiXQ%20" target="_blank" title="NFC tag scanner"><span style="text-decoration: underline;">NFC tag</span> scanner</a>(samsung) - Near Field Communication(NFC) is a standard for smartphones - there is a demo for it on our homepage.</p>
-                    <p><span style="text-decoration: underline;"><a href="http://imgur.com/" target="_blank">imgur</a></span></p>
-                    <p><a href="http://www.go2convert.com/" target="_blank"><span style="text-decoration: underline;">go2convert </span></a></p>
-                    <p>&nbsp;</p>
-
-                    <p id=GoogleIOVideos></p>
-                    <br>
-                    <h1>GOOGLE IO VIDEOS</h1>
-                    <p><a href="http://www.google.com/events/io/2010/sessions/world-of-listview-android.html" target="_blank" title="The World of Listview"><span style="text-decoration: underline;">The world of Listview</span></a></p>
-                    <p><a href="http://www.youtube.com/watch?v=twmuBbC_oB8" target="_blank" title="Advanced Tips"><span style="text-decoration: underline;">Advanced Tips</span></a></p>
-                    <p><a href="http://code.google.com/mobile/analytics/docs/android/#gettingStarted" target="_blank" title="Google Analytics"><span style="text-decoration: underline;">Google Analytics</span></a></p>
-                    <p><a href="http://www.youtube.com/watch?v=49L7z3rxz4Q&amp;feature=share" target="_blank" title="How to NFC"><span style="text-decoration: underline;">How to NFC</span></a></p>
-                    <p><a href="https://docs.google.com/viewer?a=v&amp;pid=explorer&amp;chrome=true&amp;srcid=0B9Lrx2XbHPV6NTBiYTA5OGMtYmEwNi00Yzc3LWIxNWUtZWYwZGZlZGViZWMz&amp;hl=en_US" target="_blank" title="Android UI Patterns"><span style="text-decoration: underline;">Android UI Patterns</span></a></p>
-                    <p>&nbsp;</p>
-
-                    <p id="OsXTech"></p>
-                    <br>
-                    <h1>OS X TECH</h1>
-                    <p><span style="text-decoration: underline;"><a href="http://mxcl.github.com/homebrew/" target="_blank">Homebrew</a></span> - package manager</p>
-                    <span style="text-decoration: underline;"><br />
-                    </span></div>
-            </div>
-        </div>
-
-        <div id="section-about" class="block">
-            <!-- Side nav bar (stacked) -->
-            <div class="row">
-                <div class="col-md-3 visible-lg">
-                    <ul class="nav nav-stacked" id="StackedNavBar">
-                        <li><a href="#MissionStatement">Who we are</a></li>
-                        <li><a href="#MissionStatement">CEO Initiatives</a></li>
-                        <li><a href="#2013Officers">2013-14 Officers</a></li>
-                    </ul>
-                </div>
-                <div class="col-md-9">
-
-
-                    <!-- body -->
-                    <h1 id="MissionStatement">Who we are</h1> 
-                    <p>Mobi(formerly known as SAAMD) is a student organization that aims 
-                        to engage its members in an active learning environment for mobile development while promoting scholastic excellence.</p>
-
-                    <p>Students will be able to apply their knowledge in Java, OOP, Algorithms, Database, 
-                        OS, Mobile Systems, and Networks to their own projects that involve mobile development 
-                        using the iPhone and Android OS as an integral part in their projects.</p>
-
-                    <p>Entrepreneurial thinking is encouraged as Mobi explores the tools that start-ups 
-                        are using to make the rapid development process possible in such a fast moving world.
-                        These objectives aim to harbor creativity and leadership skills in our members. 
-                        They also promote a sense of commitment and teamwork when students carry these projects 
-                        through full business models taking them from the white-board to the real market.</p>
-
-                    <!--
-<h1 id="CEO">CEO Initiatives</h1> 
-<p>Releasing UTA Radio 2.0 and campus synergy, making a new image for mobile on UTA campus, exploring CloudIDE technology, and researching agile . </p>
-<h1 id="2013Officers">2013-14 Officers</h1>
-<p style="text-align: left;"><strong>CEO: </strong><button type="button" class="btn btn-sm btn-primary">James Staud</button></p>
-<p style="text-align: left;"><strong>COO: </strong><button type="button" class="btn btn-sm btn-primary">Kevin Chung</button></p>
-<p style="text-align: left;"><strong>Faculty Advisor: </strong> <button type="button" class="btn btn-sm btn-primary">Gergely Zaruba</button> </p>
-<p style="text-align: left;"><strong>Staff Members: </strong> <button type="button" class="btn btn-sm btn-primary">Pamela Mcbride</button> <button type="button" class="btn btn-sm btn-primary">Bito Irie</button> <button type="button" class="btn btn-sm btn-primary">Todd Mcdaniel</button></p>
-<p style="text-align: left;"><strong>Board of Directors: </strong> <button type="button" class="btn btn-sm btn-primary">Thaddeus Madison</button> <button type="button" class="btn btn-sm btn-primary">Essa Haddad</button></p> 
-
--->
-                    <div class="panel-group" id="accordion">
-
-                        <div class="panel panel-default">
-                            <div class="panel-heading">
-                                <h4 class="panel-title">
-                                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
-                                        <p style="text-align: left;"><strong>CEO: </strong><button onclick="James_Staud()" type="button" class="btn btn-sm btn-primary">James Staud</button></p>  
-                                    </a>
-                                </h4>
-                            </div>
-                            <div id="collapseOne" class="panel-collapse collapse">
-                                <div class="panel-body">
-                                    <div id = "James_Staud" ></div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="panel panel-default">
-                            <div class="panel-heading">
-                                <h4 class="panel-title">
-                                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
-                                        <p style="text-align: left;"><strong>COO: </strong><button onclick="Kevin_Chung()" type="button" class="btn btn-sm btn-primary">Kevin Chung</button></p>
-                                    </a>
-                                </h4>
-                            </div>
-                            <div id="collapseTwo" class="panel-collapse collapse">
-                                <div class="panel-body">
-                                    <div id = "Kevin_Chung"></div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="panel panel-default">
-                            <div class="panel-heading">
-                                <h4 class="panel-title">
-                                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
-                                        <p style="text-align: left;"><strong>Faculty Advisor: </strong>
-                                            <button onclick="Gergely_Zaruba()" type="button" class="btn btn-sm btn-primary">Gergely Zaruba</button></p>
-                                    </a>
-                                </h4>
-                            </div>
-                            <div id="collapseThree" class="panel-collapse collapse">
-                                <div class="panel-body">
-                                    <div id = "Gergely_Zaruba"></div> 
-                                </div>
-                            </div>
-                        </div>
-                        <div class="panel panel-default">
-                            <div class="panel-heading">
-                                <h4 class="panel-title">
-                                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
-                                        <p style="text-align: left;"><strong>Staff Members: </strong>
-                                            <button onclick="Pamela_McBride()" type="button" class="btn btn-sm btn-primary">Pamela McBride</button>
-                                            <button onclick="Bito_Irie()" type="button" class="btn btn-sm btn-primary">Bito Irie</button>
-                                            <button onclick="Todd_McDaniel()" type="button" class="btn btn-sm btn-primary">Todd McDaniel</button>
-                                        </p>
-                                    </a>
-                                </h4>
-                            </div>
-                            <div id="collapseFour" class="panel-collapse collapse">
-                                <div class="panel-body">
-                                    <div id = "Staff_Members"></div> 
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="panel panel-default">
-                            <div class="panel-heading">
-                                <h4 class="panel-title">
-                                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#" href="#collapseFive">
-                                        <p style="text-align: left;"><strong>Board of Directors: </strong>
-                                            <button onclick="Thaddeus_Madison()" type="button" class="btn btn-sm btn-primary">Thadeus Madison</button>
-                                            <button onclick="Essa_Haddad()" type="button" class="btn btn-sm btn-primary">Essa Haddad</button>
-                                        </p>
-                                    </a>
-                                </h4>
-                            </div>
-                            <div id="collapseFive" class="panel-collapse collapse">
-                                <div class="panel-body">
-                                    <div id = "Board_Of_Directors"></div> 
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <br><br>
-                    <div class="container">
-                        <div id="this-carousel-id" class="carousel slide"><!-- class of slide for animation -->
-                            <div class="carousel-inner">
-                                <div class="item active"><!-- class of active since it's the first item -->
-                                    <img src="http://placehold.it/1200x480" alt="" />
-                                    <div class="carousel-caption">
-                                        <p>This sucks</p>
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <img src="http://i.imgur.com/ih4gVLH.jpg?1" style="height:480px" alt="" />
-                                    <div class="carousel-caption">
-                                        <p>Caption text here</p>
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <img src="http://i.imgur.com/ih4gVLH.jpg?1" style="height:480px" alt="" />
-                                    <div class="carousel-caption">
-                                        <p>Caption text here</p>
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <img src="http://i.imgur.com/ih4gVLH.jpg?1" style="height:480px" alt="" />
-                                    <div class="carousel-caption">
-                                        <p>Caption text here</p>
-                                    </div>
-                                </div>
-                            </div><!-- /.carousel-inner -->
-                            <!--  Next and Previous controls below
-href values must reference the id for this carousel -->
-                            <a class="carousel-control left" href="#this-carousel-id" data-slide="prev"><span class="icon-prev"></span></a>
-                            <a class="carousel-control right" href="#this-carousel-id" data-slide="next"><span class="icon-next"></span></a>
-                        </div><!-- /.carousel -->
-                    </div>
-                    <script>
-                        $(document).ready(function(){
-                            $('.carousel').carousel();
-                        });
-                    </script>
-                </div>
-            </div>
-        </div>
-
-        <!-- Bootstrap core JavaScript -->
-        <!-- Placed at the end of the document so the pages load faster -->
-
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.3.min.js"><\/script>')</script>
-
-        <script src="js/BootStrap.js"></script>
-
-        <!-- Single page scrolling stuff -->
-        <script src="js/plugins.js"></script>
-        <script>
-            $('#top-nav').onePageNav({
-                currentClass: 'active',
-                changeHash: true,
-                scrollSpeed: 1000
-            });
-        </script>
-    </body>
+	<script src="js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+	<script src="js/jquery.js"></script>
+	<script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.isotope.min.js"></script>
+	<script src="js/jquery.nicescroll.min.js"></script>
+	<script src="js/fancybox/jquery.fancybox.pack.js"></script>
+	<script src="js/skrollr.min.js"></script>		
+	<script src="js/jquery.scrollTo-1.4.3.1-min.js"></script>
+	<script src="js/jquery.localscroll-1.2.7-min.js"></script>
+	<script src="js/stellar.js"></script>
+	<script src="js/jquery.appear.js"></script>
+	<script src="js/validate.js"></script>
+    <script src="js/main.js"></script>
+        
+	</body>
 </html>
-
-
-
-
