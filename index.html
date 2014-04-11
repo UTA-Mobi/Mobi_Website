@@ -2,297 +2,422 @@
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-    <head>
-		<!-- BASICS -->
-        <meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>MOBI - The organization for developers, by developers</title>
-        <meta name="description" content="">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="stylesheet" type="text/css" href="css/isotope.css" media="screen" />	
-		<link rel="stylesheet" href="js/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
-		<link rel="stylesheet" href="css/bootstrap.css">
-		<link rel="stylesheet" href="css/bootstrap-theme.css">
-        <link rel="stylesheet" href="css/style.css">
-		<!-- skin -->
-		<link rel="stylesheet" href="skin/default.css">
-    </head>
-	 
-    <body>
-		<section id="header" class="appear"></section>
-		<div class="navbar navbar-fixed-top" role="navigation" data-0="line-height:100px; height:100px; background-color:rgba(0,0,0,0.3);" data-300="line-height:60px; height:60px; background-color:rgba(0,0,0,1);">
-			 <div class="container">
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-						<span class="fa fa-bars color-white"></span>
-					</button>
-					<h1><a class="navbar-brand" href="index.html" data-0="line-height:90px;" data-300="line-height:50px;">MOBI</a></h1>
-				</div>
-				<div class="navbar-collapse collapse">
-					<ul class="nav navbar-nav" data-0="margin-top:20px;" data-300="margin-top:5px;">
-						<li class="active"><a href="index.html">Home</a></li>
-						<li><a href="#section-about">About</a></li>
-						<li><a href="#section-works">Get Involved</a></li>
-						<li><a href="#section-contact">Contact</a></li>
-					</ul>
-				</div><!--/.navbar-collapse -->
-			</div>
-		</div>
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
 
-		<section class="featured">
-			<div class="container"> 
-				<div class="row mar-bot40">
-					<div class="col-md-6 col-md-offset-3">
-						
-						<div class="align-center">
-							<img src="img/parallax/mobi_logo.jpg" alt="" />
-							<h2 class="slogan">Welcome to MOBI</h2>
-							<p>
-							The organization for developers, by developers
-							</p>	
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		
-		<!-- services -->
-		<section id="section-services" class="section pad-bot30 bg-white">
-		<div class="container"> 
-		
-			<div class="row mar-bot40">
-				<div class="col-lg-4" >
-					<div class="align-center">
-						<figure class="project-photo"><a href="http://campus-synergy.herokuapp.com/"  target="_blank"><img src="img/projects/campus_synergy.jpg" alt="" /></a></figure>
-						<h4 class="text-bold">Campus Synergy</h4>
-						<p>Campus Synergy is an event sharing application. This application attempts to use software to provide a more interactive bridge to connect organizations with students. Campus Synergy will make event sharing more interactive and fun.</p>
-					</div>
-				</div>
-					
-				<div class="col-lg-4" >
-					<div class="align-center">
-						<figure class="project-photo"><a href="http://idappthat.mobi/utaRadioWebBeta/UTARadio.html" target="_blank"><img src="img/projects/uta_radio.jpg" alt="" /></a></figure>
-						<h4 class="text-bold">UTA Radio</h4>
-						<p>The broadcasting station at UTA wanted us to make an app for them. This would be a cross-platform web app that would stream audio over http and rtmp, integrate twitter, facebook, and allow users to request songs in realtime.
-						</p>
-					</div>
-				</div>
-			
-				<div class="col-lg-4" >
-					<div class="align-center">
-						<figure class="project-photo"><a href="https://docs.google.com/file/d/0B7rItfGsNyoWbWVpeFpwRkRfSlU/edit?pli=1"  target="_blank"><img src="img/projects/Icon_World.png" alt="" /><a/></figure>
-						<h4 class="text-bold">WebXCavate</h4>
-						<p>webXcavate is a caching game. The users of this app tag an eLocation with helpful hints, a question, and an answer. Users that want to play then would view a snapshot of the eLocation, read the hints, and surf the Web following the hints in order to name that eLocation.
-						</p>
-					</div>
-				</div>
-			
-			</div>	
+<head>
+    <!-- BASICS -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>MOBI - The organization for developers, by developers</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/isotope.css" media="screen" />
+    <link rel="stylesheet" href="js/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- skin -->
+    <link rel="stylesheet" href="skin/default.css">
+</head>
 
-		</div>
-		</section>
-			
-		<!-- spacer section:testimonial -->
-		<section id="testimonials" class="section" data-stellar-background-ratio="0.5">
-		<div class="container">
-			<div class="row">				
-					<div class="col-lg-12">
-							<div class="align-center">
-										<div class="testimonial pad-top40 pad-bot40 clearfix">
-											<h5>
-											Mobi(formerly known as SAAMD) is a student organization that aims to engage its members in an active learning environment for mobile development while promoting scholastic excellence.
-											</h5>
-											<br/>
-											<span class="author">&mdash; MOBI </span>
-										</div>
-
-								</div>
-							</div>
-					</div>
-				
-			</div>	
-		</div>	
-		</section>
-			
-		<!-- about -->
-		<section id="section-about" class="section appear clearfix">
-		<div class="container">
-
-				<div class="row mar-bot40">
-					<div class="col-md-offset-3 col-md-6">
-						<div class="section-header">
-							<h2 class="section-heading animated" data-animation="bounceInUp">Our Team</h2>
-							<p>Entrepreneurial thinking is encouraged as Mobi explores the tools that start-ups are using to make the rapid development process possible in such a fast moving world. These objectives aim to harbor creativity and leadership skills in our members. 
-							</p>
-						</div>
-					</div>
-				</div>
-
-					<div class="row align-center mar-bot40">
-						<div class="col-md-4">
-							<div class="team-member">
-								<figure class="member-photo"><img src="img/team/photo.png" alt="" /></figure>
-								<div class="team-detail">
-									<h4>James Staud</h4>
-									<span>CEO</span>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4">
-							<div class="team-member">
-								<figure class="member-photo"><img src="img/team/photo.png" alt="" /></figure>
-								<div class="team-detail">
-									<h4>Kevin Chung</h4>
-									<span>COO</span>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4">
-							<div class="team-member">
-								<figure class="member-photo"><img src="img/team/photo.png" alt="" /></figure>
-								<div class="team-detail">
-								<h4>Gregely Zaruba</h4>
-									<span>Faculty Advisor</span>
-								</div>
-							</div>
-						</div>
-						
-					</div>
-						
-		</div>
-		</section>
-		<!-- /about -->
-		
-		<!-- spacer section:stats -->
-		<section id="parallax1" class="section pad-top40 pad-bot40" data-stellar-background-ratio="0.5">
-			<div class="container">
-			<div class="align-center">
-			<div class="testimonial pad-top40 pad-bot40 clearfix">
-					<h5>
-						Students will be able to apply their knowledge in Java, OOP, Algorithms, Database, OS, Mobile Systems, and Networks to their own projects that involve mobile development using the iPhone and Android OS as an integral part in their projects.
-					</h5>
-				</div>
-
-			</div>
-			</div>
-			</div>	
-		</section>
-		
-		<!-- section works -->
-		<section id="section-works" class="section appear clearfix">
-			<div class="container">
-				
-				<div class="row mar-bot40">
-					<div class="col-md-offset-3 col-md-6">
-						<div class="section-header">
-							<h2 class="section-heading animated" data-animation="bounceInUp">Get Involved</h2>
-							<p>
-							</p>
-						</div>
-					</div>
-				</div>
-					
-                        <div class="row">
-                          <center>
-						   <h1>
-							Learn Together</h1>
-						   We often have <strong>TWO</strong> different types of meetings:<br />
-						   Info Sessions: General Body Meetings about Club&#39;s direction<br />
-						   Social Coding Days: Paired programming styled coding time with teammates.<br />
-							<center>
-						   <strong>Only $10</strong> to join for the year E-mail| uta.mobi@gmail.com We value your input, your curiosity, and your story.</center>
-						  <iframe src="https://www.google.com/calendar/embed?src=uta.mobi%40gmail.com&ctz=America/Chicago" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe></center>
-										  
-						</div>
-				
-			</div>
-		</section>
-		<section id="parallax2" class="section parallax" data-stellar-background-ratio="0.5">	
-            <div class="align-center pad-top40 pad-bot40">
-                <blockquote class="bigquote color-white">.</blockquote>
-				<p class="color-white">.</p>
+<body>
+    <section id="header" class="appear"></section>
+    <div class="navbar navbar-fixed-top" role="navigation" data-0="line-height:100px; height:100px; background-color:rgba(0,0,0,0.3);" data-300="line-height:60px; height:60px; background-color:rgba(0,0,0,1);">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="fa fa-bars color-white"></span>
+                </button>
+                <h1>
+                    <a class="navbar-brand" href="index.html" data-0="line-height:90px;" data-300="line-height:50px;">MOBI</a>
+                </h1>
             </div>
-		</section>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav" data-0="margin-top:20px;" data-300="margin-top:5px;">
+                    <li class="active">
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="#section-about">About</a>
+                    </li>
+                    <li>
+                        <a href="#section-works">Get Involved</a>
+                    </li>
+                    <li>
+                        <a href="#section-contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!--/.navbar-collapse -->
+        </div>
+    </div>
 
-		<!-- contact -->
-		<section id="section-contact" class="section appear clearfix">
-			<div class="container">
-				
-				<div class="row mar-bot40">
-					<div class="col-md-offset-3 col-md-6">
-						<div class="section-header">
-							<h2 class="section-heading animated" data-animation="bounceInUp">Contact us</h2>
-							<p>You can also visit us directly at ERB 437, UTA.</p>
-						</div>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-8 col-md-offset-2">
-						<div class="cform" id="contact-form">
-							<div id="sendmessage">
-								 Your message has been sent. Thank you!
-							</div>
-							<form action="contact/contact.php" method="post" role="form" class="contactForm">
-							  <div class="form-group">
-								<label for="name">Your Name</label>
-								<input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="maxlen:4" data-msg="Please enter at least 4 chars" />
-								<div class="validation"></div>
-							  </div>
-							  <div class="form-group">
-								<label for="email">Your Email</label>
-								<input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
-								<div class="validation"></div>
-							  </div>
-							  <div class="form-group">
-								<label for="subject">Subject</label>
-								<input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="maxlen:4" data-msg="Please enter at least 8 chars of subject" />
-								<div class="validation"></div>
-							  </div>
-							  <div class="form-group">
-								<label for="message">Message</label>
-								<textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us"></textarea>
-								<div class="validation"></div>
-							  </div>
-							  
-							  <button type="submit" class="btn btn-theme pull-left">SEND MESSAGE</button>
-							</form>
+    <section class="featured">
+        <div class="container">
 
-						</div>
-					</div>
-					<!-- ./span12 -->
-				</div>
-				
-			</div>
-		</section>
-		
-		
-	<section id="footer" class="section footer">
-		<div class="container">
-			
+            <div class="row mar-bot40">
 
-			<div class="row align-center copyright">
-					<div class="col-sm-12"><p>Copyright &copy; 2014 MOBI - by <a href="#">MOBI, UTA</a></p></div>
-			</div>
-		</div>
 
-	</section>
-	<a href="#header" class="scrollup"><i class="fa fa-chevron-up"></i></a>	
+                <div class="pull-left col-md-6 ">
+                    <div class="align-center">
+                        <img src="img/parallax/mobi_logo.jpg" alt="" />
+                        <h2 class="slogan">Welcome to MOBI</h2>
+                        <p>
+                            The organization for developers, by developers
+                        </p>
+                    </div>
+                    <form class="form-inline align-center" role="form">
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter your email address">
+                        </div>
+                        <button type="submit" class="btn btn-warning btn-lg">I'm interested!</button>
+                    </form>
 
-	<script src="js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
-	<script src="js/jquery.js"></script>
-	<script src="js/jquery.easing.1.3.js"></script>
+                </div>
+                <div class="col-lg-6 pull-right mar-top30">
+                    <img class="img-responsive" src="img/ipad-hand.png" alt="">
+                </div>
+                <!-- /col-lg-6 -->
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- services -->
+    <section id="section-services" class="section pad-bot30 bg-white">
+        <div class="container">
+
+            <div class="row mar-bot40">
+                <div class="col-lg-4">
+                    <div class="align-center">
+                        <figure class="project-photo">
+                            <a href="http://campus-synergy.herokuapp.com/" target="_blank">
+                                <img src="img/projects/campus_synergy.jpg" alt="" />
+                            </a>
+                        </figure>
+                        <h4 class="text-bold">Campus Synergy</h4>
+                        <p>Campus Synergy is an event sharing application. This application attempts to use software to provide a more interactive bridge to connect organizations with students. Campus Synergy will make event sharing more interactive and fun.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="align-center">
+                        <figure class="project-photo">
+                            <a href="http://idappthat.mobi/utaRadioWebBeta/UTARadio.html" target="_blank">
+                                <img src="img/projects/uta_radio.jpg" alt="" />
+                            </a>
+                        </figure>
+                        <h4 class="text-bold">UTA Radio</h4>
+                        <p>The broadcasting station at UTA wanted us to make an app for them. This would be a cross-platform web app that would stream audio over http and rtmp, integrate twitter, facebook, and allow users to request songs in realtime.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="align-center">
+                        <figure class="project-photo">
+                            <a href="https://docs.google.com/file/d/0B7rItfGsNyoWbWVpeFpwRkRfSlU/edit?pli=1" target="_blank">
+                                <img src="img/projects/Icon_World.png" alt="" />
+                                <a/>
+                        </figure>
+                        <h4 class="text-bold">WebXCavate</h4>
+                        <p>webXcavate is a caching game. The users of this app tag an eLocation with helpful hints, a question, and an answer. Users that want to play then would view a snapshot of the eLocation, read the hints, and surf the Web following the hints in order to name that eLocation.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- spacer section:testimonial -->
+    <section id="testimonials" class="section" data-stellar-background-ratio="0.5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="align-center">
+                        <div class="testimonial pad-top40 pad-bot40 clearfix modalBackground">
+                            <h5>
+                                Mobi(formerly known as SAAMD) is a student organization that aims to engage its members in an active learning environment for mobile development while promoting scholastic excellence.
+                            </h5>
+                            <br/>
+                            <span class="author">&mdash; MOBI</span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        </div>
+    </section>
+
+    <!-- about -->
+    <section id="section-about" class="section appear clearfix">
+        <!--
+        <div class="container">
+
+            <div class="row mar-bot40">
+                <div class="col-md-offset-3 col-md-6">
+                    <div class="section-header">
+                        <h2 class="section-heading animated" data-animation="bounceInUp">Our Team</h2>
+                        <p>Entrepreneurial thinking is encouraged as Mobi explores the tools that start-ups are using to make the rapid development process possible in such a fast moving world. These objectives aim to harbor creativity and leadership skills in our members.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row align-center mar-bot40">
+                <div class="col-md-4">
+                    <div class="team-member">
+                        <figure class="member-photo">
+                            <img src="img/team/photo.png" alt="" />
+                        </figure>
+                        <div class="team-detail">
+                            <h4>James Staud</h4>
+                            <span>CEO</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="team-member">
+                        <figure class="member-photo">
+                            <img src="img/team/photo.png" alt="" />
+                        </figure>
+                        <div class="team-detail">
+                            <h4>Kevin Chung</h4>
+                            <span>COO</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="team-member">
+                        <figure class="member-photo">
+                            <img src="img/team/photo.png" alt="" />
+                        </figure>
+                        <div class="team-detail">
+                            <h4>Gregely Zaruba</h4>
+                            <span>Faculty Advisor</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+-->
+        <div class="container align-center">
+            <div class="row mt centered">
+                <div class="col-lg-6 col-lg-offset-3">
+                    <h1>Our Awesome Team.
+                        <br/>Design Lovers.</h1>
+                    <h3>Entrepreneurial thinking is encouraged as Mobi explores the tools that start-ups are using to make the rapid development process possible in such a fast moving world. These objectives aim to harbor creativity and leadership skills in our members.</h3>
+                </div>
+            </div>
+            <!-- /row -->
+
+            <div class="row mt centered ">
+                <div class="col-lg-4">
+                    <img class="img-circle" src="img/parallax/JamesS.png" width="140" alt="">
+                    <h4>James Staud</h4>
+                    <!--<p>President of Mobi, I work to keep our team focused and keep our development on track with our missions. As a developer I enjoy seeing our great apps finished and used.</p>--><p>President of Mobi</p>
+                    <!--<p><i class="glyphicon glyphicon-send"></i> <i class="glyphicon glyphicon-phone"></i> <i class="glyphicon glyphicon-globe"></i></p>-->
+                </div>
+                <!--/col-lg-4 -->
+
+                <div class="col-lg-4">
+                    <img class="img-circle" src="img/parallax/KevinC.png" width="140" alt="">
+                    <h4>Kevin Chung</h4>
+                    <!--<p>Keeping our development going and our creativity to it's maximum is what I do best. That's why I am the Vice President of Mobi!</p>--><p>Vice President of Mobi</p>
+                    <!--<p><i class="glyphicon glyphicon-send"></i> <i class="glyphicon glyphicon-phone"></i> <i class="glyphicon glyphicon-globe"></i></p>-->
+                </div>
+                <!--/col-lg-4 -->
+
+                <div class="col-lg-4">
+                    <img class="img-circle" src="img/parallax/ZaidA2.png" width="140" alt="">
+                    <h4>Zaid Shamais</h4>
+                    <p>Android Program Manager</p>
+                    <!--<p><i class="glyphicon glyphicon-send"></i> <i class="glyphicon glyphicon-phone"></i> <i class="glyphicon glyphicon-globe"></i></p>-->
+                </div>
+                <!--/col-lg-4 -->
+                </div>
+                <!-- /row -->
+
+                <div class="row mt centered">
+                    <div class="col-lg-4">
+                        <img class="img-circle" src="img/parallax/JamesF.png" width="140" alt="">
+                        <h4>James Fielder</h4>
+                        <p>iOS Program Manager</p>
+                        <!--<p><i class="glyphicon glyphicon-send"></i> <i class="glyphicon glyphicon-phone"></i> <i class="glyphicon glyphicon-globe"></i></p>-->
+                    </div>
+                    <!--/col-lg-4 -->
+
+                    <div class="col-lg-4">
+                        <img class="img-circle" src="img/parallax/Zaruba.png" width="140" alt="">
+                        <h4>Gergely Zaruba</h4>
+                        <p>Faculty Advisor</p>
+                        <!--<p><i class="glyphicon glyphicon-send"></i> <i class="glyphicon glyphicon-phone"></i> <i class="glyphicon glyphicon-globe"></i></p>-->
+                    </div>
+
+                    <div class="col-lg-4">
+                    <img class="img-circle" src="img/team/photo.png" width="140" alt="">
+                    <h4>Maybe you!</h4>
+                    <p>President of Mobi, Android Program Manager, iOS Program manager, Windows Mobile Program Manager, or Vice President of Mobi could be your title someday if you're willing to work for it!</p>
+                    <!--<p><i class="glyphicon glyphicon-send"></i> <i class="glyphicon glyphicon-phone"></i> <i class="glyphicon glyphicon-globe"></i></p>-->
+                </div>
+                    <!--/col-lg-4 -->
+
+            </div>
+            <!-- /row -->
+        </div>
+        <!-- /container -->
+    </section>
+    <!-- /about -->
+
+    <!-- spacer section:stats -->
+    <section id="parallax1" class="section pad-top40 pad-bot40" data-stellar-background-ratio="0.5">
+        <div class="container">
+            <div class="align-center">
+                <div class="testimonial pad-top40 pad-bot40 clearfix">
+                    <h5>
+                        Students will be able to apply their knowledge in Java, OOP, Algorithms, Database, OS, Mobile Systems, and Networks to their own projects that involve mobile development using the iPhone and Android OS as an integral part in their projects.
+                    </h5>
+                </div>
+
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- section works -->
+    <section id="section-works" class="section appear clearfix">
+        <div class="container">
+
+            <div class="row mar-bot40">
+                <div class="col-md-offset-3 col-md-6">
+                    <div class="section-header">
+                        <h2 class="section-heading animated" data-animation="bounceInUp">Get Involved</h2>
+                        <p>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <center>
+                    <h1>
+                        Learn Together</h1>
+                    We often have
+                    <strong>TWO</strong>different types of meetings:
+                    <br />Info Sessions: General Body Meetings about Club&#39;s direction
+                    <br />Social Coding Days: Paired programming styled coding time with teammates.
+                    <br />
+                    <center>
+                        <strong>Only $10</strong>to join for the year E-mail| uta.mobi@gmail.com We value your input, your curiosity, and your story.</center>
+                    <iframe src="https://www.google.com/calendar/embed?src=uta.mobi%40gmail.com&ctz=America/Chicago" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+                </center>
+
+            </div>
+
+        </div>
+    </section>
+    <section id="parallax2" class="section parallax" data-stellar-background-ratio="0.5">
+        <div class="align-center pad-top40 pad-bot40">
+            <blockquote class="bigquote color-white">.</blockquote>
+            <p class="color-white">.</p>
+        </div>
+    </section>
+
+    <!-- contact -->
+    <section id="section-contact" class="section appear clearfix">
+        <div class="container">
+
+            <div class="row mar-bot40">
+                <div class="col-md-offset-3 col-md-6">
+                    <div class="section-header">
+                        <h2 class="section-heading animated" data-animation="bounceInUp">Contact us</h2>
+                        <p>You can also visit us directly at ERB 437, UTA.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                    <div class="cform" id="contact-form">
+                        <div id="sendmessage">
+                            Your message has been sent. Thank you!
+                        </div>
+                        <form action="contact/contact.php" method="post" role="form" class="contactForm">
+                            <div class="form-group">
+                                <label for="name">Your Name</label>
+                                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="maxlen:4" data-msg="Please enter at least 4 chars" />
+                                <div class="validation"></div>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Your Email</label>
+                                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                                <div class="validation"></div>
+                            </div>
+                            <div class="form-group">
+                                <label for="subject">Subject</label>
+                                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="maxlen:4" data-msg="Please enter at least 8 chars of subject" />
+                                <div class="validation"></div>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us"></textarea>
+                                <div class="validation"></div>
+                            </div>
+
+                            <button type="submit" class="btn btn-theme pull-left">SEND MESSAGE</button>
+                        </form>
+
+                    </div>
+                </div>
+                <!-- ./span12 -->
+            </div>
+
+        </div>
+    </section>
+
+
+    <section id="footer" class="section footer">
+        <div class="container">
+
+
+            <div class="row align-center copyright">
+                <div class="col-sm-12">
+                    <p>Copyright &copy; 2014 MOBI - by
+                        <a href="#">MOBI, UTA</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <a href="#header" class="scrollup">
+        <i class="fa fa-chevron-up"></i>
+    </a>
+
+    <script src="js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
     <script src="js/bootstrap.min.js"></script>
-	<script src="js/jquery.isotope.min.js"></script>
-	<script src="js/jquery.nicescroll.min.js"></script>
-	<script src="js/fancybox/jquery.fancybox.pack.js"></script>
-	<script src="js/skrollr.min.js"></script>		
-	<script src="js/jquery.scrollTo-1.4.3.1-min.js"></script>
-	<script src="js/jquery.localscroll-1.2.7-min.js"></script>
-	<script src="js/stellar.js"></script>
-	<script src="js/jquery.appear.js"></script>
-	<script src="js/validate.js"></script>
+    <script src="js/jquery.isotope.min.js"></script>
+    <script src="js/jquery.nicescroll.min.js"></script>
+    <script src="js/fancybox/jquery.fancybox.pack.js"></script>
+    <script src="js/skrollr.min.js"></script>
+    <script src="js/jquery.scrollTo-1.4.3.1-min.js"></script>
+    <script src="js/jquery.localscroll-1.2.7-min.js"></script>
+    <script src="js/stellar.js"></script>
+    <script src="js/jquery.appear.js"></script>
+    <script src="js/validate.js"></script>
     <script src="js/main.js"></script>
-        
-	</body>
+
+</body>
+
 </html>
