@@ -8,6 +8,25 @@
 /*==========================================================================
   General
   ========================================================================== */
+
+/* Added these elements: */
+.emailFormWidth  {
+	width:180px;
+}
+
+.carousel-caption{
+    background: rgba(0,0,0,0.5);
+}
+
+.modalBackground {
+    background-color:Gray;
+    filter:alpha(opacity=70);
+    opacity:0.7;
+}
+
+.top-buffer { margin-top:40px; }
+/*End Custom additions*/
+
 body {
 	color:#777;
 	background: #f7f7f7;
@@ -300,8 +319,8 @@ a:hover {
 .mar-bot35 {
 	margin-bottom: 35px;
 }
-.mar-bot40 {
-	margin-bottom: 40px;
+.mar-bot40 { /* Edited the padding from 40 px to 0 px*/
+	margin-bottom: 0px;
 }
 
 
@@ -335,7 +354,7 @@ section.section {
 	background-image: url(../img/parallax/img1.jpg);
 }
 #parallax2{	
-	background-image: url(../img/parallax/pen.jpg);
+	background-image: url(../img/How_to_Build_a_Mobile_App.jpg);
 }
 #testimonials{	
 	background-image: url(../img/parallax/mobi.jpg);
@@ -431,7 +450,7 @@ h1 a.navbar-brand {
 =========================== */
 
 section.featured {
-	padding: 200px 0 60px;
+	padding: 200px 0 0px;
 	background: #0088cc;
 	color: #fdfdfd;
 }
